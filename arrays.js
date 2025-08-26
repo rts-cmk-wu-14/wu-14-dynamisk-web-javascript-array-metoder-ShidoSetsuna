@@ -44,6 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i dogsArray er en hund som hedder "Trixie".
   // Udskriv "true" eller "false" i konsollen afhængig af svaret.
   // console.log("Opgave 3a", ...)
+  let isTrixieReal = false;
+  if (dogsArray.includes("Trixie")) {
+    isTrixieReal = true;
+  } else {
+    isTrixieReal = false;
+  }
+  console.log("Opgave 3a", isTrixieReal);
 
   // Opgave 3b
   // Check om der i dogsArray er en hund som hedder "Baxter".
