@@ -106,6 +106,11 @@ document.addEventListener("DOMContentLoaded", function () {
   //     Opgave 7a
   // Find ud af hvilket index "Mango" har i fruitsArray.
   // Udskriv indexet i konsollen.
+  console.log("Opgave 7a", fruitsArray.indexOf("Mango"));
+
+  //Mango har index 3, men, det er kun fordi index starter fra, så man kunne gøre det sådan her:
+  //console.log("Opgave 7ab", fruitsArray.indexOf("Mango" + 1));
+  //På denne måde ville mango få index 4, hvilket er det rigtige nummer i rækken, når man tæller fra 1 og ikke 0.
 
   // Opgave 7b
   // Find ud af hvilket index "Blåbær" har i fruitsArray.
