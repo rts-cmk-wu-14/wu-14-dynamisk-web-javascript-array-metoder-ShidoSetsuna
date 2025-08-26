@@ -115,6 +115,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Opgave 7b
   // Find ud af hvilket index "Blåbær" har i fruitsArray.
   // Udskriv indexet i konsollen.
+  let blueberryIndex = fruitsArray.indexOf("Blåbær");
+  if (blueberryIndex === -1) {
+    console.log("Opgave 7b", "Blåbær findes ikke i arrayet");
+  } else {
+    console.log("Opgave 7b", blueberryIndex);
+  }
 
   // Opgave 8
   // Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
