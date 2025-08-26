@@ -68,25 +68,25 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i catsArray er en kat som hedder "Bagheera".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4a", ...)
-  let isBagheeraReal;
+  let Bagheera;
   if (catsArray.includes("Bagheera")) {
-    isBagheeraReal = true;
+    Bagheera = "Bagheera";
   } else {
-    isBagheeraReal = false;
+    Bagheera = undefined;
   }
-  console.log("Opgave 4a", isBagheeraReal);
+  console.log("Opgave 4a", Bagheera);
 
   // Opgave 4b
   // Check om der i catsArray er en kat som hedder "Salem".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4b", ...)
-  let isSalemReal;
+  let Salem;
   if (catsArray.includes("Salem")) {
-    isSalemReal = true;
+    Salem = "Salem";
   } else {
-    isSalemReal = false;
+    Salem = undefined;
   }
-  console.log("Opgave 4b", isSalemReal);
+  console.log("Opgave 4b", Salem);
 
   //     Opgave 5
   // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
@@ -100,6 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // (Sådan her: BarneyMollyBaxter...)
   // Udskriv strengen konsollen:
   // console.log("Opgave 6", ...)
+  let longString = dogsArray.join("");
+  console.log("Opgave 6", longString);
 
   //     Opgave 7a
   // Find ud af hvilket index "Mango" har i fruitsArray.
