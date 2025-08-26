@@ -127,4 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
   // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
   //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+  dogsArray.splice(dogsArray.indexOf("Polly"), 1);
+  console.log("Opgave 8", dogsArray);
 }); // ends DOMContentLoaded
